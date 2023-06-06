@@ -2,18 +2,26 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <div class="navbar-brand">Koi | Alex Seidensticker</div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <div className="navbar-brand">Koi | Alex Seidensticker</div>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="https://github.com/koi-as">GitHub</a>
-            <a class="nav-link active" href="https://www.linkedin.com/in/alex-koi-seidensticker">LinkedIn</a>
-            <a class="nav-link active" href="">Email</a>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div>|</div>
+          <div className="navbar-nav">
+            <a className="nav-link active" href="https://github.com/koi-as">GitHub</a>
+            <a className="nav-link active" href="https://www.linkedin.com/in/alex-koi-seidensticker">LinkedIn</a>
+            <a className="nav-link active" href="">Email</a>
           </div>
+          <div>| |</div>
+          <div className="navbar-nav">
+            <a className="nav-link active" href="#">About Me</a>
+            <a className="nav-link active" href="#">Portfolio</a>
+            <a className="nav-link active" href="#">Contact Me</a>
+          </div>
+          <div>|</div>
         </div>
       </div>
     </nav>
