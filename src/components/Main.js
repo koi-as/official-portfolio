@@ -1,9 +1,15 @@
 import React from 'react';
 
+import AboutMe from './components/AboutMe';
+import ApplicationCard from './components/ApplicationCard';
+
 function Main () {
   return (
     <div>
-      Hello
+      <AboutMe/>
+      <ApplicationCard/>
+      <ApplicationCard/>
+      <ApplicationCard/>
     </div>
   )
 };
