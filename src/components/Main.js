@@ -8,8 +8,6 @@ function Main () {
     <div>
       <AboutMe />
       <ApplicationCard />
-      <ApplicationCard />
-      <ApplicationCard />
     </div>
   )
 };
