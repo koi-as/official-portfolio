@@ -9,19 +9,11 @@ function Nav() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div>|</div>
           <div className="navbar-nav">
             <a className="nav-link active" href="https://github.com/koi-as">GitHub</a>
             <a className="nav-link active" href="https://www.linkedin.com/in/alex-koi-seidensticker">LinkedIn</a>
             <a className="nav-link active" href="">Email</a>
           </div>
-          <div>| |</div>
-          <div className="navbar-nav">
-            <a className="nav-link active" href="#">About Me</a>
-            <a className="nav-link active" href="#">Portfolio</a>
-            <a className="nav-link active" href="#">Contact Me</a>
-          </div>
-          <div>|</div>
         </div>
       </div>
     </nav>
